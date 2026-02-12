@@ -1,6 +1,6 @@
-📝 Notes App (Flutter)
+📝 Notes App (Flutter) :
 
-  A Flutter-based Notes Application that allows users to create, edit, delete, and manage notes efficiently with offline support.
+   - A Flutter-based Notes Application that allows users to create, edit, delete, and manage notes efficiently with offline support.
 
 🚀 Tech Stack :
 
