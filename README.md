@@ -1,16 +1,60 @@
-# note_app
+📝 Notes App (Flutter)
 
-A new Flutter project.
+  A Flutter-based Notes Application that allows users to create, edit, delete, and manage notes efficiently with offline support.
 
-## Getting Started
+🚀 Tech Stack :
 
-This project is a starting point for a Flutter application.
+  - Flutter
 
-A few resources to get you started if this is your first Flutter project:
+  - Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  - Provider (State Management)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  - MVVM Architecture
+
+  - SQLite (Local Database)
+
+✨ Features :
+
+ - 📌 Create, edit, and delete notes (CRUD operations)
+
+ - 💾 Offline data storage using SQLite
+
+ - 🔄 Real-time UI updates with Provider
+
+ - 🗂 Organized and scalable MVVM architecture
+
+ - 🎨 Clean and responsive UI with Material Design
+
+ - ⚡ Fast performance and smooth navigation
+
+ 🛠 Architecture :
+
+- The project follows the MVVM (Model–View–ViewModel) pattern to maintain:
+
+- Clean separation of concerns
+
+- Scalable and maintainable code
+
+- Improved testability
+
+📱 App Highlights :
+
+- Persistent local storage
+
+- Responsive Flutter UI
+
+- Efficient state management
+
+- Optimized database queries for better performance
+
+
+🔗 Future Enhancements :
+
+- loud sync with Firebase
+
+- Light & Dark mode
+
+- Note categories & tags
+
+📷 Screenshots :
