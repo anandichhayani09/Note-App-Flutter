@@ -58,3 +58,21 @@
 - Note categories & tags
 
 📷 Screenshots :
+
+![n1](https://github.com/user-attachments/assets/2f037c68-e3b1-4268-b5c2-026554f2df2e)
+
+![n2](https://github.com/user-attachments/assets/4616530c-3ecc-4106-a5dc-1b1fa63f22e0)
+
+![n3](https://github.com/user-attachments/assets/144f7e13-1308-4df9-a692-5b412a2d0775)
+
+![n4](https://github.com/user-attachments/assets/6817d394-694f-4a81-a441-5fc8307a784e)
+
+![n5](https://github.com/user-attachments/assets/f32613cc-4e65-40f0-b97f-fdb34e68a313)
+
+![n6](https://github.com/user-attachments/assets/9b85ccc7-a992-4525-9cff-b48bc806f804)
+
+
+
+
+
+
