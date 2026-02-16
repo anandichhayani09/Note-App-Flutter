@@ -8,16 +8,9 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize FFI for Desktop
-  sqfliteFfiInit();
-  databaseFactory = databaseFactoryFfi;
-
-  final vm = NoteViewmodel();
-  await vm.loadNotes();
-
   runApp(
-    ChangeNotifierProvider.value(
-      value: vm,
+    ChangeNotifierProvider(
+      create: (_) => NoteViewmodel()..loadNotes(),
       child: MyApp(),
     ),
   );

@@ -6,11 +6,16 @@ class NoteViewmodel extends ChangeNotifier{
   final _repo = NoteRepository();
   List<Note> notes = [];
 
-  Future<void> loadNotes() async{
-    notes = await _repo.fetchNotes();
-    notifyListeners();
-
+  Future<void> loadNotes() async {
+    try {
+      notes = await _repo.fetchNotes();
+      print("Notes Loaded: ${notes.length}");
+      notifyListeners();
+    } catch (e) {
+      print("LOAD ERROR: $e");
+    }
   }
+
 
   Future<void> addNote(String title, String content) async {
     await _repo.addNote(Note(title: title, content: content));
@@ -25,6 +30,7 @@ class NoteViewmodel extends ChangeNotifier{
   Future<void> deleteNote(int id) async {
     await _repo.deleteNote(id);
     await loadNotes();
+    notifyListeners();
   }
 
 }

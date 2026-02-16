@@ -1,6 +1,4 @@
 import 'package:note_app/models/note_model.dart';
-import 'package:sqflite/sqflite.dart';
-
 import '../database/db_helper.dart';
 
 class NoteRepository {
@@ -29,6 +27,7 @@ class NoteRepository {
   Future<void> deleteNote(int id) async{
     final db = await DBHelper().getdatabase();
     await db.delete('notes',where: 'id = ?',whereArgs: [id]);
+    await fetchNotes();
   }
 
 
